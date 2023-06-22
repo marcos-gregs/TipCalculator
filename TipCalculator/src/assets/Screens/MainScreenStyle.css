@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+:root
+{
+  --StrongCyan: hsl(172, 67%, 45%);
+  --VeryDarkCyan: hsl(183, 100%, 15%);
+  --DarkGrayishCyan: hsl(186, 14%, 43%);
+  --GrayishCyan: hsl(184, 14%, 56%);
+  --LightGrayishcyan: hsl(185, 41%, 84%);
+  --VeryLightGrayishCyan: hsl(189, 41%, 97%);
+  --WhiteCustom: hsl(0, 0%, 100%);
+  --FontStyle:'Space Mono', monospace;
+  --FontSize:24px;
+}
+
+body
+{
+  background-color: var(--LightGrayishcyan);
+}
+
+.logoMain
+{
+  background-image: url('../public/images/logo.svg');
+  width: 10vw;
+  height: 10vh;
+  background-repeat: no-repeat;
+  margin: 5% auto;
+}
+
+
+.tipCalculator
+{
+    margin: 0 auto;
+    width: 50vw;
+    height: 55vh;
+    background-color: var(--WhiteCustom);
+    display: flex;
+    border-radius: 20px;
+}
+
+.attribution 
+{ 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 3%;
+}
+.attribution a 
+{
+     color: hsl(228, 45%, 44%); 
+}
+
+/* mob */
+@media(max-width:425px) {
+  .logoMain
+  {
+  background-size: contain;
+  }
+
+
+.tipCalculator
+{
+    margin: 0 auto;
+    width: 80vw;
+    min-height: 94vh;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+}
+@media(max-width:414px) {
+  .logoMain
+  {
+  background-size: contain;
+  }
+
+
+.tipCalculator
+{
+    margin: 0 auto;
+    width: 80vw;
+    min-height: 94vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+}

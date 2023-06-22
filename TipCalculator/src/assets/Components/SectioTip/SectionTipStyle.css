@@ -1,0 +1,232 @@
+.SectionTip{
+    background-color: var(--VeryDarkCyan);
+    width: 40%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5% ;
+    border-radius: 20px;
+}
+.ContentTip{
+    font-family: var(--FontStyle);
+    font-size: 12px;
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-top: 10%;
+
+}
+.ContentText{
+    display: flex;
+    flex-direction: column;
+}
+.ContentText > span:nth-child(1){
+    color: var(--LightGrayishcyan);
+}
+.ContentText > span:nth-child(2){
+    color: var(--DarkGrayishCyan);
+}
+#TotalPerson{
+    margin-left: 35%;
+    font-size: 24px;
+    color: var(--StrongCyan);
+}
+
+#TipPerson{
+    margin-left: 29%;
+    font-size: 24px;
+    color: var(--StrongCyan);
+}
+
+.BtnTip{
+    width: 90%;
+    height: 6vh;
+    font-size: 20px;
+    margin-top: 8vw;
+    margin-left: 5%;
+    font-family: var(--FontStyle);
+    color: var(--VeryDarkCyan);
+    background-color: var(--StrongCyan);
+    border-radius: 8px;
+    border: none;
+}
+
+
+@media(max-width:1440px) {
+    .SectionTip{
+        background-color: var(--VeryDarkCyan);
+        width: 43%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 2.5% ;
+        border-radius: 20px;
+    }
+    .ContentTip{
+        font-family: var(--FontStyle);
+        font-size: 12px;
+        display: flex;
+        width: 90%;
+        flex-direction: row;
+        margin-left: 10%;
+        margin-top: 10%;
+    
+    }
+    .ContentText{
+        display: flex;
+        flex-direction: column;
+    }
+    .ContentText > span:nth-child(1){
+        color: var(--LightGrayishcyan);
+    }
+    .ContentText > span:nth-child(2){
+        color: var(--DarkGrayishCyan);
+    }
+    #TotalPerson{
+        margin-left: 35%;
+        font-size: 24px;
+        color: var(--StrongCyan);
+    }
+    
+    #TipPerson{
+        margin-left: 29%;
+        font-size: 24px;
+        color: var(--StrongCyan);
+    }
+    
+    .BtnTip{
+        width: 90%;
+        height: 6vh;
+        font-size: 20px;
+        margin-top: 6vw;
+        margin-left: 5%;
+    
+    }
+    
+
+}
+@media(max-width:425px) {
+    .SectionTip{
+        width: 70vw;
+        height: 37vh;
+        margin-top: 2.5% ;
+        margin-left: 5%;
+    }
+    .ContentTip{
+        font-family: var(--FontStyle);      
+        width: 65vw;
+    }
+    .ContentText{
+        width: 14vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .ContentText > span:nth-child(1){
+        color: var(--LightGrayishcyan);
+        font-size: 8px;
+    }
+    .ContentText > span:nth-child(2){
+        color: var(--DarkGrayishCyan);
+        font-size: 8px;
+    }
+    #TotalPerson{
+        font-size: 20px;
+        margin-left:28.5%;
+    }
+    
+    #TipPerson{
+        font-size: 20px;
+        
+    }
+}
+@media(max-width:375px) {
+    .SectionTip{
+        width: 70vw;
+        height: 37vh;
+        margin-top: 2.5% ;
+        margin-left: 5%;
+    }
+    .ContentTip{
+        font-family: var(--FontStyle);      
+        width: 65vw;
+    }
+    .ContentText{
+        width: 14vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .ContentText > span:nth-child(1){
+        color: var(--LightGrayishcyan);
+        font-size: 8px;
+    }
+    .ContentText > span:nth-child(2){
+        color: var(--DarkGrayishCyan);
+        font-size: 8px;
+    }
+    #TotalPerson{
+        font-size: 20px;
+        margin-left:28.5%;
+    }
+    
+    #TipPerson{
+        font-size: 20px;
+        
+    }
+    
+    .BtnTip{
+        width: 90%;
+        height: 6vh;
+        font-size: 20px;
+        margin-top: 8vw;
+        margin-left: 5%;
+  
+    }
+
+}
+
+@media(max-width:320px) {
+    .SectionTip{
+        width: 70vw;
+        height: 37vh;
+        margin-top: 2.5% ;
+        margin-left: 5%;
+    }
+    .ContentTip{
+        font-family: var(--FontStyle);      
+        width: 65vw;
+    
+    }
+    .ContentText{
+        width: 14vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .ContentText > span:nth-child(1){
+        color: var(--LightGrayishcyan);
+        font-size: 8px;
+    }
+    .ContentText > span:nth-child(2){
+        color: var(--DarkGrayishCyan);
+        font-size: 8px;
+    }
+    #TotalPerson{
+        font-size: 18px;
+        margin-left:28.5%;
+    }
+    
+    #TipPerson{
+        font-size: 18px;
+        
+    }
+    
+    .BtnTip{
+        width: 90%;
+        height: 6vh;
+        font-size: 20px;
+        margin-top: 15vw;
+        margin-left: 5%;
+  
+    }
+
+}
